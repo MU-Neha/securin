@@ -1,0 +1,26 @@
+{
+  "id": "CVE-1999-0095",
+  "sourceIdentifier": "cve@mitre.org",
+  "published": "1988-10-01T04:00:00.000",
+  "lastModified": "2019-06-11T20:29:00.263",
+  "vulnStatus": "Modified",
+  "description": "The debug command in Sendmail is enabled, allowing attackers to execute commands as root.",
+  "severity": "HIGH",
+  "score": 10,
+  "vectorString": "AV:N/AC:L/Au:N/C:C/I:C/A:C",
+  "accessVector": "NETWORK",
+  "accessComplexity": "LOW",
+  "authentication": "NONE",
+  "confidentialityImpact": "COMPLETE",
+  "integrityImpact": "COMPLETE",
+  "availabilityImpact": "COMPLETE",
+  "exploitabilityScore": 10,
+  "impactScore": 10,
+  "cpeMatch": [
+    {
+      "vulnerable": true,
+      "criteria": "cpe:2.3:a:eric_allman:sendmail:5.58:*:*:*:*:*:*:*",
+      "matchCriteriaId": "1D07F493-9C8D-44A4-8652-F28B46CBA27C"
+    }
+  ]
+}
